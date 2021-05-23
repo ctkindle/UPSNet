@@ -219,7 +219,8 @@ def upsnet_test():
     net_timer = Timer()
     post_timer = Timer()
 
-    while i_iter < len(test_loader):
+#     while i_iter < len(test_loader):
+    while i_iter < 5:
         data_timer.tic()
         batch = []
         labels = []
