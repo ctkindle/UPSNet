@@ -627,7 +627,7 @@ class BaseDataset(torch.utils.data.Dataset):
         results = []
         image_ids = self.dataset.COCO.getImgIds()
         image_ids.sort()
-        assert len(boxes) == len(image_ids)
+#         assert len(boxes) == len(image_ids)
         for i, image_id in enumerate(image_ids):
             dets = boxes[i]
             if isinstance(dets, list) and len(dets) == 0:
