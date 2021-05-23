@@ -61,7 +61,7 @@ test:
   - 800
   max_size: 1333
   batch_size: 1
-  test_iteration: 270000
+  test_iteration: 10
   panoptic_stuff_area_limit: 4096
   vis_mask: false
 

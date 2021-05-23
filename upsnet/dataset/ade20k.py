@@ -105,8 +105,7 @@ class ade20k(BaseDataset):
 
 
     def __len__(self):
-#         return len(self.roidb)
-        return 5
+        return len(self.roidb)
 
     def __getitem__(self, index):
         # index = (index + 2000) % len(self.roidb)
